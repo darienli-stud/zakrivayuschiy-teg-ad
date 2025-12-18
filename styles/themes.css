@@ -30,10 +30,10 @@
 }
 
 :root.theme-dark {
-  --main-color: #00CC14;
+  --main-color: #c900cc;
   --bg-color: #000;
-  --heart-hover: #00CC14;
-  --button-text-color: #00CC14;
+  --heart-hover: #c900cc;
+  --button-text-color: #c900cc;
   
   --card-font-weight: 465;
   --card-title-font-weight: 785;
@@ -55,18 +55,18 @@
       ),
       linear-gradient(
         to bottom,
-        #007f0c 0.01%,
-        #004306
+        #c900cc 0.01%,
+        #4c044d
       );
 }
 
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --main-color: #00CC14;
+    --main-color: #c900cc;
     --bg-color: #000;
-    --heart-hover: #00CC14;
-    --button-text-color: #00CC14;
+    --heart-hover: #c900cc;
+    --button-text-color: #c900cc;
     
     --card-font-weight: 465;
     --card-title-font-weight: 785;
@@ -88,8 +88,8 @@
       ),
       linear-gradient(
         to bottom,
-        #007f0c 0.01%,
-        #004306
+        #c900cc 0.01%,
+        #4c044d
       );
   }
 }

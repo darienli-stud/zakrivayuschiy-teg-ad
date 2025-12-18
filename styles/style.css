@@ -175,31 +175,36 @@
 
 
 .article__img--blur {
-  filter: blur(4px);
+  filter: saturate(0.2);
+  
 }
 
 .article__img--brightness {
-  filter: brightness(5);
+  filter: saturate(3);
 }
 
 .article__img--saturate {
-  filter: saturate(5);
+  filter: hue-rotate(20deg);
+  
+  
 }
 
 .article__img--grayscale {
-  filter: grayscale(1);
+  filter: invert(1) contrast(0.8) brightness(0.8);
+  
 }
 
 .article__img--hue-rotate {
-  filter: hue-rotate(180deg);
+  filter: sepia(1);
+  
 }
 
 .article__img--mix {
-  filter: blur(4px) invert(100%);
+  filter: blur(10px);
 }
 
 .article__img--sepia {
-  filter: sepia(1);
+  filter: hue-rotate(90deg) contrast(0.55) blur(1.8px);
 }
 
 
